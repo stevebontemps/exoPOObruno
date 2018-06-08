@@ -80,3 +80,11 @@ print_r($gateauAuChocolat->toString());
 print_r($gateauVanille->toString());
 
 ?>
+    <br/>
+
+<?php
+
+print_r($gateauVanille->getIngredient("chocolat"));
+
+?>
+
